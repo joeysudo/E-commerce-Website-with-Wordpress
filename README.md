@@ -1,29 +1,10 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# Deploy Wordpress on Localhost and in Production using Docker Compose
+# MYD VOUCHER SYSTEM FOR SWEN90016
 
-Related blog post:
+##Install instruction
 
-  - [WordPress Local Development Using Docker
-    Compose](https://www.datanovia.com/en/lessons/wordpress-local-development-using-docker-compose/):
-    Deploy Wordpress on localhost using docker
-  - [Docker WordPress Production
-    Deployment](https://www.datanovia.com/en/lessons/docker-wordpress-production-deployment/):
-    Step-by-step guide to deploy WordPress online using docker-compose
-  - [Using Docker WordPress Cli to Manage WordPress
-    Websites](https://www.datanovia.com/en/lessons/using-docker-wordpress-cli-to-manage-wordpress-websites/):
-    Commande line interface for managing a WordPress website
-
-The installation tool kit, provided here, include:
-
-  - Nginx web server
-  - MariaDB/MySQL used for Wordpress database
-  - phpMyAdmin interface to connect to your MySQL database
-  - WP-Cli: Wordpress Command Line Interface
-  - Makefile directives for automatization.
-
-You can automatically deploy a local docker wordpress site in 5 minutes
 using the following commands:
 
 ``` bash
@@ -33,6 +14,13 @@ cd wordpress-docker-compose
 # Build and start installation
 docker-compose up -d --build
 ```
+
+ - Nginx web server
+  - MariaDB/MySQL used for Wordpress database
+  - phpMyAdmin interface to connect to your MySQL database
+  - WP-Cli: Wordpress Command Line Interface
+  - Makefile directives for automatization.
+
 
 Visit your site at <http://localhost> and your database via phpMyAdmin
 at <http://localhost:8080>.
