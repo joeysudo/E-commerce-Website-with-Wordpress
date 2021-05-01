@@ -9,8 +9,8 @@ using the following commands:
 
 ``` bash
 # Download a wordpress docker-compose example
-git clone https://github.com/kassambara/wordpress-docker-compose
-cd wordpress-docker-compose
+git clone https://github.com/joeysudo/SWEN-90016
+cd SWEN-90016
 # Build and start installation
 docker-compose up -d --build
 ```
