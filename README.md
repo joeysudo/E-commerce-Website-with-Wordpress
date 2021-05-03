@@ -3,7 +3,7 @@
 
 # MYD VOUCHER SYSTEM FOR SWEN90016
 
-# Install instruction
+## Install Instruction
 
 using the following commands:
 
