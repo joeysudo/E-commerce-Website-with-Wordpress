@@ -53,3 +53,9 @@ rm -rf certs/* certs-data/* logs/nginx/* mysql/* wordpress/*
     Docker](https://github.com/mjstealey/wordpress-nginx-docker)
   - [Quickstart: Compose and
     WordPress](https://docs.docker.com/compose/wordpress/)
+    
+If you are asked the connection info (FTP credentials) dueing install new plugin,
+Put the following code on your wp-config.php, which is under the wordpress folder
+
+/* That's all, stop editing! Happy blogging. */
+define('FS_METHOD', 'direct');
