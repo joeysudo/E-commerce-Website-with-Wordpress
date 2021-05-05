@@ -127,3 +127,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 /** Sets up WordPress vars and included files. */
 require_once ABSPATH . 'wp-settings.php';
+
+/* That's all, stop editing! Happy blogging. */
+define('FS_METHOD', 'direct');
